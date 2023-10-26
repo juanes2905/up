@@ -1,0 +1,31 @@
+{
+  "name": "devcamp-2687351",
+  "version": "1.0.0",
+  "description": "Proyecto para la clase de JSBackend, instructor CBO, SENA CGMLTI",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve",
+    "dev": "nodemon serve",
+    "data:connect": "node config/db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanes2905/devcamp-2687351.git"
+  },
+  "keywords": [],
+  "author": "JUAN ESTEVAN QUIÑONES REINA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanes2905/devcamp-2687351/issues"
+  },
+  "homepage": "https://github.com/juanes2905/devcamp-2687351#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
